@@ -22,10 +22,15 @@ Two different test runner strategies are presented:
 
 Choose the test runner strategy which represents the best approach for your customer.
 
+## Data Parameterization
+
+Test Data has been achieved using TestNG annotation DataProviders
+@DataProviders
+
 ## To Execute and generate reports in TestNG  
 
 Execute testng.xml
-'**********************************************************************************
+## **********************************************************************************
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
@@ -39,7 +44,7 @@ Execute testng.xml
         </classes>
     </test>
 </suite>
-'************************************************************************************    
+## ************************************************************************************    
 
 To run the `posts` api tests:
 
