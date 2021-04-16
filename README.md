@@ -30,21 +30,8 @@ Test Data has been achieved using TestNG annotation DataProviders
 ## To Execute and generate reports in TestNG  
 
 Execute testng.xml
-## **********************************************************************************
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="/Users/meranand/IdeaProjects/APIKarateDockerMavenWooliesTest">
-        <classes>
-            <class name="restassuredTests.GetRequests">
-                <methods>
-                    <include name="getWeatherDetails"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
-</suite>
-## ************************************************************************************    
+
+## To Execute using Maven
 
 To run the `posts` api tests:
 
